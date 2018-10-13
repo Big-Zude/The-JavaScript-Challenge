@@ -1,2 +1,2 @@
 # farmers-market
-adverting web app
+web app
