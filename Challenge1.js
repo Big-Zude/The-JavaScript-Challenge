@@ -1,3 +1,8 @@
+//challenge 1
+//create a simple expense tracker 
+
+
+//source code
 let Account = { //create the Account objects
     name: 'Zude',
     expense: 0,
