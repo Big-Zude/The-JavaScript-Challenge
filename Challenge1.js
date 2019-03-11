@@ -20,7 +20,7 @@ let addIncome = function (account, amount) { //create the function for income
 }
 
 let getAccountSummary = function (Account) { //create the function for the account summary
-    return `Account for ${Account.name} has $${Account.amount=Account.income+Account.expense}. $${Account.income} .income $${Account.expense} expenses`
+    return `Account for ${Account.name} has $${Account.amount=Account.income-Account.expense} balance. $${Account.income} .in Income and $${Account.expense} in expenses`
 }
 let resetAccount = function (account, amount) { //create function for resetting the account
     account.expense = 0
@@ -28,17 +28,14 @@ let resetAccount = function (account, amount) { //create function for resetting 
 }
 
 //for expense
-addExpense(Account, 23.50)
-console.log(Account)
+addExpense(Account, 723.50)
 
 //for income
-addIncome(Account, 200)
-console.log(Account)
+addIncome(Account, 2000)
 
 //for the account summary
-let summary = getAccountSummary(Account)
-console.log(summary)
+console.log(getAccountSummary(Account))
 
 //for resetting the account
 resetAccount(Account)
-console.log(Account)
+console.log(getAccountSummary(Account))
