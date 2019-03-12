@@ -1,6 +1,7 @@
 Create a simple expense tracker that runs in console only
  -create all the objects needed
  -create all the functions required
+ -add the parameters to the functions
  -create a summary for the transaction
  -reset the account
  -use template strings for the output(optional)
