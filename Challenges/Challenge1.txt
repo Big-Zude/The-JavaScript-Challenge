@@ -11,6 +11,13 @@ e.g
  name:
  expense:
  income
+ 
+ the functions can be:
+ -Account()
+ -addExpense()
+ -addIncome()
+ -AccountSummary
+ -resetAccount()
 
 if you have difficults, please check the sample answers so that you can have a better idea of how to go about it.
 
