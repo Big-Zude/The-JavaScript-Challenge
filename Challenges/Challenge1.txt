@@ -1,0 +1,13 @@
+Create a simple expense tracker that runs in console only
+ -create all the objects needed
+ -create all the functions required
+ -create a summary for the transaction
+ 
+ 
+e.g
+ the objects can be
+ name:
+ expense:
+ income
+
+if you have difficults, please check the sample answers so that you can have a better idea of how to go about it.
