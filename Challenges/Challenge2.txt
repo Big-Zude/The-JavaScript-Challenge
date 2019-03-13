@@ -1,0 +1,10 @@
+//challenge2
+
+Create a simple temperature converter
+-convert fahrenheit to celcius
+-convert fahrenheit to kelvin
+-the formulars can be obtained from varius sites on the internet
+-use template strings(optional)
+
+sample output:
+fahrenheit 32,celcius 0,kelvin 273.5
